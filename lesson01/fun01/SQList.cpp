@@ -14,6 +14,7 @@ typedef struct SqList
     int length;
     /* data */
 };
+SqList initList(SqList &l);
 
 SqList initList(SqList &l){
     l.length=0;
