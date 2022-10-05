@@ -14,7 +14,7 @@ typedef struct SqList
     int length;
     /* data */
 } SqList;
-void initList(SqList &l);
+void initList(SqList &l);//初始化顺序表
 bool ListDelete(SqList &l, int i);
 void initList(SqList &l)
 {
