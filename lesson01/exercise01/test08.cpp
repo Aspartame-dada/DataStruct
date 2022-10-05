@@ -29,6 +29,18 @@ Status InitList_Sq(SqList &A)
 }
 int ListInsert(SqList &A, int item)
 {
+    // int i;
+    // for(int i=0;i<A.length;i++){
+    //     if(A.elem[i]<)
+
+    // }
+    
+
+
+
+
+
+    //------------------------------
     int i, j, t;
     for (i = 0; i < A.length; i++)
     {
